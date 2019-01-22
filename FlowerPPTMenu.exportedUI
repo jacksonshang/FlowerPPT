@@ -1,0 +1,100 @@
+﻿<mso:cmd app="PowerPoint" dt="1" slr="0" />
+<mso:customUI
+    xmlns:x2="http://schemas.microsoft.com/office/2009/07/customui/macro"
+    xmlns:x1="TFCOfficeShim.Connect.15"
+    xmlns:mso="http://schemas.microsoft.com/office/2009/07/customui">
+    <mso:ribbon>
+        <mso:qat/>
+        <mso:tabs>
+            <mso:tab id="HuaBan_CustomUI_TAB001" label="项目" insertAfterQ="x1:IDC_STORYBOARDING_TAB">
+                <mso:group id="HuaBan_CustomUI_GRP001" label="项目管理" autoScale="true">
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__test3_0_6F908DF" label="刷新项目状态" imageMso="RecordsRefreshMenu" onAction="RefreshProject" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test2_0_5618301" label="时间线" imageMso="DataGraphicIconSet" onAction="AddTimeLine" visible="true"/>
+                </mso:group>
+            </mso:tab>
+            <mso:tab id="HuaBan_CustomUI_TAB002" label="特殊调整" insertAfterQ="x1:IDC_STORYBOARDING_TAB">
+                <mso:group id="HuaBan_CustomUI_GRP002" label="参考线" autoScale="true">
+                    <mso:button idQ="x2:HuaBan_CustomUI_Bt002" label="添加参考线" imageMso="ViewGridlinesFrontPage" onAction="AddGuideLines" visible="true"/>
+                    <mso:gallery idQ="mso:PictureShapeGallery" showInRibbon="false" visible="true"/>
+                    <mso:control idQ="mso:ShapesFragment" visible="true"/>
+                    <mso:control idQ="mso:ShapesCombine" visible="true"/>
+                    <mso:control idQ="mso:ShapesSubtract" visible="true"/>
+                    <mso:control idQ="mso:ShapesUnion" visible="true"/>
+                    <mso:control idQ="mso:ShapesIntersect" visible="true"/>
+                    <mso:control idQ="mso:ObjectsGroup" visible="true"/>
+                    <mso:control idQ="mso:ObjectsUngroup" visible="true"/>
+                </mso:group>
+                <mso:group id="HuaBan_CustomUI_GRP003" label="排列" autoScale="true">
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test4_77_11AD75182" label="选择同类型​​" imageMso="ObjectsUngroup" onAction="SelectSameType" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test4_5_11AD75182" label="选择所有图形" imageMso="LassoSelect" onAction="SelectAllShape" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test4_3_11AD75181" label="选择所有线​​" imageMso="ObjectEditPoints" onAction="SelectAllLine" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test2_0_53E979D" label="形状铺满" imageMso="SlidesPerPage9Slides" onAction="ArrangeFill" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__ArrangeCycle_0_E4D7AD" label="圆型排列" imageMso="SmartArtChangeColorsGallery" onAction="ArrangeCycle" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycleV2.pptm__Test2_0_1D48F1C" label="花瓣排列" imageMso="DiagramTargetInsertClassic" onAction="ArrangeCycleLayers" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__MakeRoundRectSameCorner_0_A979DE3" label="统一圆角" imageMso="ObjectsGroup" onAction="MakeRoundRectSameCorner" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__MyArrange_MakeLineHV_0_6AD43D6" label="直线" imageMso="SelectionPaneHidden" onAction="MyArrange_MakeLineHV" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__SetName_0_602F4B7" label="同心对齐" imageMso="ChartRadarChart" onAction="AlignMiddleHV" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__test1_0_3E3D067" label="居中" imageMso="ViewDisplayInHighContrast" onAction="CenterToPPT" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__MakeSameWH_0_ED1E45" label="等宽高" imageMso="AppointmentColor0" onAction="MakeSameWH" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test4_88_11AD75182" label="等高" imageMso="ShapesDuplicate" onAction="SameHeight" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test2_0_F08657" label="等大小" imageMso="ObjectsUngroup" onAction="SameSize" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test2_3_F08658" label="与PPT等大小" imageMso="ObjectsUngroup" onAction="MakeSameSizeASPPT" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test2_0_DD76E68" label="等距排列" imageMso="HorizontalSpacingDecrease" onAction="ArrangeSameWHAlign" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test2_0_1010F23E" label="旋转" imageMso="RecurrenceEdit" onAction="MyRotation" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test4_99_11AD75182" label="交换位置" imageMso="RecurrenceEdit" onAction="PlaceExchange" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycleV2.pptm__Test2_0_AFAC05E" label="同心放大" imageMso="PanAndZoomWindow" onAction="Enlarger" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle6.pptm__Test1_1_11AD75180" label="直角曲线" imageMso="AppointmentColorDialog" onAction="AddRoundCornerlineFrom" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle6.pptm__Test2_1_11AD75180" label="从此连线" imageMso="AppointmentColorDialog" onAction="AddlineFrom" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle6.pptm__Test3_1_11AD75180" label="变小" imageMso="AppointmentColorDialog" onAction="MakeHorizontalSmallerThan" visible="true"/>
+                    <mso:control idQ="mso:ObjectsAlignTopSmart" visible="true"/>
+                    <mso:control idQ="mso:ObjectsAlignMiddleVerticalSmart" visible="true"/>
+                    <mso:control idQ="mso:ObjectsAlignBottomSmart" visible="true"/>
+                    <mso:control idQ="mso:ObjectsAlignLeftSmart" visible="true"/>
+                    <mso:control idQ="mso:ObjectsAlignCenterHorizontalSmart" visible="true"/>
+                    <mso:control idQ="mso:ObjectsAlignRightSmart" visible="true"/>
+                    <mso:control idQ="mso:ObjectFlipHorizontal" visible="true"/>
+                    <mso:control idQ="mso:ObjectFlipVertical" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle6.pptm__Test2_0_11AD1234" label="斜线排列​​" imageMso="SlidesPerPage9Slides" onAction="LeanToLine" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test2_0_11AD7517" label="向右拷贝" imageMso="AppointmentColorDialog" onAction="CopyToRight" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test2_1_11AD7517" label="向下拷贝" imageMso="AppointmentColorDialog" onAction="CopyToDown" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test4_1_11AD75199" label="变浅" imageMso="AppointmentColorDialog" onAction="GradientToWhite" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test4_1_11AD75100" label="变深" imageMso="AppointmentColorDialog" onAction="GradientToBlack" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test4_33_11AD7510" label="色环" imageMso="AppointmentColorDialog" onAction="GradientToColorRing" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle3.pptm__Test4_1_11AD75180" label="灰色" imageMso="AppointmentColorDialog" onAction="GreyIt" visible="true"/>
+                </mso:group>
+                <mso:group id="HuaBan_CustomUI_GRP004" label="字体" autoScale="true">
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__MyArrange_ZeroPadding_0_21D557B" label="零边距" imageMso="CharacterBorder" onAction="MyArrange_ZeroPadding" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__MyArrange_RotateText180_0_11122A83" label="文字倒转" imageMso="WordArtFormatDialog" onAction="MyArrange_RotateText180" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test2_1_53E979D" label="统一字体" imageMso="CharacterShading" onAction="UnifyFontName" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test4_1_53E970D" label="删除文字" imageMso="CharacterShading" onAction="DeleteText" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test5_1_53E970F" label="文字黑白" imageMso="CharacterShading" onAction="MakeFontColorSharp" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test6_1_53E970G" label="拆分文字" imageMso="CharacterShading" onAction="SeperateTxt" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test7_1_53E970H" label="合并文字" imageMso="CharacterShading" onAction="MergeText" visible="true"/>
+                </mso:group>
+                <mso:group id="HuaBan_CustomUI_GRP005" label="图片" autoScale="true">
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test2_0_117E7B45" label="图片黑白" imageMso="BlackAndWhiteAutomatic" onAction="MakePicBW" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test3_0_117E7B45" label="转为图片" imageMso="BlackAndWhiteAutomatic" onAction="PasteAsPic" visible="true"/>
+                </mso:group>
+            </mso:tab>
+            <mso:tab id="HuaBan_CustomUI_TAB003" label="其他功能" insertAfterQ="x1:IDC_STORYBOARDING_TAB">
+                <mso:group id="HuaBan_CustomUI_GRP006" label="插件" autoScale="true">
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__SaveReloadPPAM_0_17A6600B" label="ReloadPPAM" imageMso="RecordsRefreshMenu" onAction="SaveReloadPPAM" visible="true"/>
+                </mso:group>
+                <mso:group id="HuaBan_CustomUI_GRP007" label="信息" autoScale="true">
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__SetName_0_36C00B6" label="SetName" imageMso="RmsSendBizcardDesign" onAction="SetName" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__GetColornSize_0_33AF0F5" label="Color&amp;&amp;Size" imageMso="ListMacros" onAction="GetColornSize" visible="true"/>
+                </mso:group>
+                <mso:group id="HuaBan_CustomUI_GRP008" label="Chart" autoScale="true">
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test8_0_117E7B038" label="柱状图" imageMso="Chart3DColumnChart" onAction="SetBarChartLength" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__Test9_0_117E7B33" label="饼环图" imageMso="Chart3DPieChart" onAction="SetPieRingChartPercent" visible="true"/>
+                </mso:group>
+                <mso:group id="HuaBan_CustomUI_GRP009" label="其他" autoScale="true">
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__stestasdfasdfasdf" label="星空背景" imageMso="RecordsRefreshMenu" onAction="RandomPlaceShape" visible="true"/>
+                    <mso:button idQ="x2:_ArrangeCycle.pptm__DeleteEmptyPageNumber" label="清除空页码" imageMso="RecordsRefreshMenu" onAction="RemoveEmptyPageNumbers" visible="true"/>
+                    <mso:button idQ="x2:HuaBan_CustomUI_Bt001" label="按行排列​​" imageMso="SlidesPerPage9Slides" onAction="ArrangeLineByLine" visible="true"/>
+	      <mso:button idQ="x2:_ArrangeCycle6.pptm__Test1001_11AD75180" label="全部连线" imageMso="AppointmentColorDialog" onAction="AddlineToAll" visible="true"/>
+                </mso:group>
+            </mso:tab>
+        </mso:tabs>
+    </mso:ribbon>
+</mso:customUI>
