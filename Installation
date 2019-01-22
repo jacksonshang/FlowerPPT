@@ -1,0 +1,19 @@
+Installation
+
+[!Important] current version is only tested on Office2016.
+[!Important] if you have any customUI existed, please back-up first. 
+
+There are 2 files you need to install on your Powerpoint.
+
+1. a PPAM file, which is a powerpoint add-in, please put it in your addin folder, which is always located in your "C:\Users\<your user>\AppData\Roaming\Microsoft\AddIns"
+
+2. please add add-in by go to "File -> Options -> add-in", switch to "powerpoint add-in" in the dropdown at the bottom of the dialog. Click "Go" to open the add-in dialog. Clik "Add" button to add PPAM file and click OK.
+
+3.[optional] If you have existed Custom UI, you need to export it first. and merge your own ".exportedUI" file and this file, and import the merged file again.
+
+4. a Exported UI file(.exportedUI), which is a customerized Ribbon tab. you can directly import it with your powerpoint by goto "File -> Options ->CustomUI", and click the "import" button to choose ".exportUI" file. [!!! Remember to back-up if you already have some customUI, this step will cover any existed customui !!!]
+
+5. If a message or dialog popup about add-in safty, please choose "enable" to allow add-in to work.
+
+
+
