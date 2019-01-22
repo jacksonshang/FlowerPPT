@@ -3,6 +3,10 @@ Installation
 [!Important] current version is only tested on Office2016.
 [!Important] if you have any customUI existed, please back-up first. 
 
+[MenuFile] FlowerPPTMenu.exportedUI
+[Add-inFile] ArrangeCycle.ppam
+[SourceCodeFile] ArrangeCycleV8.pptm (this is not necessary if you only want to use it.)
+
 There are 2 files you need to install on your Powerpoint.
 
 1. a PPAM file, which is a powerpoint add-in, please put it in your addin folder, which is always located in your "C:\Users\<your user>\AppData\Roaming\Microsoft\AddIns"
